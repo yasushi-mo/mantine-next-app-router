@@ -41,5 +41,9 @@
       "prettier --write",
       "next lint --fix"
     ]
+  },
+  "volta": {
+    "node": "20.15.0",
+    "npm": "10.7.0"
   }
 }
