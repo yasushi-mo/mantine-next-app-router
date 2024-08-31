@@ -1,4 +1,5 @@
-// import { Container, Title } from "@mantine/core";
+"use client";
+
 import { Line, LineChart } from "recharts";
 
 const data = [
@@ -9,19 +10,10 @@ const data = [
   { name: "E", value: 300 },
 ];
 
-export default function LineCharts() {
+export default function SimpleLineChart() {
   return (
     <LineChart width={400} height={400} data={data}>
       <Line type="monotone" dataKey="value" stroke="#8884d8" />
     </LineChart>
   );
 }
-
-// return (
-//   <Container>
-//     <Title>Line Chart</Title>
-//     <LineChart width={400} height={400} data={data}>
-//       <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-//     </LineChart>
-//   </Container>
-// );
