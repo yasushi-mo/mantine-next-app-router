@@ -1,27 +1,10 @@
 // import { Container, Title } from "@mantine/core";
-import { Line, LineChart } from "recharts";
+import dynamic from "next/dynamic";
 
-const data = [
-  { name: "A", value: 400 },
-  { name: "B", value: 200 },
-  { name: "C", value: 300 },
-  { name: "D", value: 350 },
-  { name: "E", value: 300 },
-];
+const DynamicSimpleLineCharts = dynamic(() => import("./SimpleLineChart"), {
+  ssr: false,
+});
 
 export default function LineCharts() {
-  return (
-    <LineChart width={400} height={400} data={data}>
-      <Line type="monotone" dataKey="value" stroke="#8884d8" />
-    </LineChart>
-  );
+  return <DynamicSimpleLineCharts />;
 }
-
-// return (
-//   <Container>
-//     <Title>Line Chart</Title>
-//     <LineChart width={400} height={400} data={data}>
-//       <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-//     </LineChart>
-//   </Container>
-// );
