@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 
-const DynamicSimpleLineCharts = dynamic(() => import("./SimpleLineChart"), {
+const DynamicSimpleLineChart = dynamic(() => import("./SimpleLineChart"), {
   ssr: false,
 });
 
-export default function LineCharts() {
-  return <DynamicSimpleLineCharts />;
+export default function LineChart() {
+  return <DynamicSimpleLineChart />;
 }
