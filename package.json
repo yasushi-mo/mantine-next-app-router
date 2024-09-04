@@ -14,6 +14,7 @@
     "@mantine/charts": "^7.12.1",
     "@mantine/core": "^7.12.1",
     "@mantine/hooks": "^7.12.1",
+    "d3": "^7.9.0",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/d3": "^7.4.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
