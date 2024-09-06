@@ -9,8 +9,8 @@ const data = [
 ];
 
 export default function LineChart({
-  width = 730,
-  height = 250,
+  width = 600,
+  height = 400,
   marginTop = 20,
   marginRight = 20,
   marginBottom = 20,
@@ -41,13 +41,8 @@ export default function LineChart({
 
   return (
     <svg width={width} height={height}>
-      <path
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        d={line(data) || undefined}
-      />
-      <g fill="white" stroke="currentColor" strokeWidth="1.5">
+      <path fill="none" stroke="blue" d={line(data) || undefined} />
+      <g stroke="blue">
         {data.map((d, i) => (
           <circle key={i} cx={x(i)} cy={y(d.value)} r="2.5" />
         ))}
