@@ -12,6 +12,7 @@ export default function LineCharts() {
   return (
     <LineChart
       h={400}
+      w={600}
       data={data}
       dataKey="name"
       series={[{ name: "value", color: "blue" }]}
