@@ -1,6 +1,10 @@
+"use client";
+
 import { Stack, Title } from "@mantine/core";
 
 import * as d3 from "d3";
+import dynamic from "next/dynamic";
+import { LineChart } from "@mantine/charts";
 
 const data = [
   { name: "A", value: 400 },
@@ -17,6 +21,7 @@ const marginRight = 20;
 const marginBottom = 20;
 const marginLeft = 20;
 
+// D3
 const x = d3
   .scaleLinear()
   .domain([0, data.length - 1])
@@ -32,6 +37,14 @@ const line = d3
   .x((d, i) => x(i))
   .y((d) => y(d.value));
 
+// Recharts
+export const DynamicRechartsLineChart = dynamic(
+  () => import("./../recharts/line-charts/simple/SimpleLineChart"),
+  {
+    ssr: false,
+  },
+);
+
 export default function LineCharts() {
   return (
     <Stack gap="lg">
@@ -45,6 +58,23 @@ export default function LineCharts() {
             ))}
           </g>
         </svg>
+      </Stack>
+
+      <Stack gap="md">
+        <Title>Recharts</Title>
+        <DynamicRechartsLineChart />
+      </Stack>
+
+      <Stack gap="md">
+        <Title>Mantine Charts</Title>
+        <LineChart
+          h={height}
+          w={width}
+          data={data}
+          dataKey="name"
+          series={[{ name: "value", color: "blue" }]}
+          curveType="linear"
+        />
       </Stack>
     </Stack>
   );
