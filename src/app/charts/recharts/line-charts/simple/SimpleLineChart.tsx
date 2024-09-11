@@ -12,7 +12,7 @@ const data = [
 
 export default function SimpleLineChart() {
   return (
-    <LineChart width={600} height={400} data={data}>
+    <LineChart width={600} height={200} data={data}>
       <Line type="linear" dataKey="value" stroke="blue" />
     </LineChart>
   );
