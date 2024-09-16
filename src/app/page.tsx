@@ -1,10 +1,12 @@
-import { Container } from "@mantine/core";
+import { Button, Stack, Title } from "@mantine/core";
 
 export default function Home() {
-  const demoProps = {
-    bg: "var(--mantine-color-blue-light)",
-    h: 400,
-    mt: "md",
-  };
-  return <Container {...demoProps}>Default Container</Container>;
+  return (
+    <Stack m="md">
+      <Title c="red.8">Hello Mantine</Title>
+      <Button fz="md" bg="primary">
+        Button
+      </Button>
+    </Stack>
+  );
 }
