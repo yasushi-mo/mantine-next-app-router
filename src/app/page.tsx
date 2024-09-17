@@ -1,11 +1,14 @@
-import { Container, Text } from "@mantine/core";
+import { Button, Container, Group } from "@mantine/core";
 
 export default function Home() {
   return (
     <Container m="md">
-      <Text fz="md" c="blue.6">
-        Hello Mantine
-      </Text>
+      <Group>
+        <Button>Default Button</Button>
+        <Button color="red" variant="filled">
+          Button with props
+        </Button>
+      </Group>
     </Container>
   );
 }
