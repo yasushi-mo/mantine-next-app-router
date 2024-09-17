@@ -1,12 +1,11 @@
-import { Button, Stack, Title } from "@mantine/core";
+import { Container, Text } from "@mantine/core";
 
 export default function Home() {
   return (
-    <Stack m="md">
-      <Title c="red.8">Hello Mantine</Title>
-      <Button fz="md" bg="primary">
-        Button
-      </Button>
-    </Stack>
+    <Container m="md">
+      <Text fz="md" c="blue.6">
+        Hello Mantine
+      </Text>
+    </Container>
   );
 }
