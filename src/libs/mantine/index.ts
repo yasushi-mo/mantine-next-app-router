@@ -23,6 +23,11 @@ export const theme = createTheme({
         color: "cyan",
         variant: "outline",
       },
+      styles: {
+        label: {
+          color: "darkcyan",
+        },
+      },
     }),
   },
 });
