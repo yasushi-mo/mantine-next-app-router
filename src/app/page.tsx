@@ -1,4 +1,4 @@
-import { Button, Container, Group } from "@mantine/core";
+import { Button, Container, Group, Space } from "@mantine/core";
 
 export default function Home() {
   return (
@@ -8,6 +8,11 @@ export default function Home() {
         <Button color="red" variant="filled">
           Button with props
         </Button>
+      </Group>
+      <Space h="xl" />
+      <Group>
+        <Button size="xxl">XXL Button</Button>
+        <Button size="xxs">XXS Button</Button>
       </Group>
     </Container>
   );
