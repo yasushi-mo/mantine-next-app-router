@@ -21,11 +21,10 @@ export const theme = createTheme({
     Button: Button.extend({
       defaultProps: {
         color: "cyan",
-        variant: "outline",
       },
       styles: {
         label: {
-          color: "darkcyan",
+          color: "black",
         },
       },
       vars: (theme, props) => {
