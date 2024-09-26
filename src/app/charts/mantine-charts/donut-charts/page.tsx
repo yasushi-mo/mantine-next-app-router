@@ -1,3 +1,5 @@
+"use client";
+
 import { DonutChart } from "@mantine/charts";
 import { Stack, Title } from "@mantine/core";
 
@@ -16,7 +18,15 @@ export default function DonutCharts() {
         <DonutChart data={data} />;
       </Stack>
       <Stack>
-        <DonutChart data={data} withLabels withLabelsLine={false} />
+        <DonutChart
+          data={data}
+          withLabels
+          withLabelsLine={false}
+          pieProps={{
+            dataKey: "value",
+            label: ({ name }) => name,
+          }}
+        />
       </Stack>
     </Stack>
   );
