@@ -1,4 +1,5 @@
 import { DonutChart } from "@mantine/charts";
+import { Stack, Title } from "@mantine/core";
 
 export const data = [
   { name: "USA", value: 400, color: "indigo.6" },
@@ -8,5 +9,12 @@ export const data = [
 ];
 
 export default function DonutCharts() {
-  return <DonutChart data={data} />;
+  return (
+    <Stack mx="xl" gap="xl">
+      <Title>DonutCharts</Title>
+      <Stack gap="lg">
+        <DonutChart data={data} />;
+      </Stack>
+    </Stack>
+  );
 }
