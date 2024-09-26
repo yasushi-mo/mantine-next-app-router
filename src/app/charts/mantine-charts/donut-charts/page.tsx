@@ -15,6 +15,9 @@ export default function DonutCharts() {
       <Stack gap="lg">
         <DonutChart data={data} />;
       </Stack>
+      <Stack>
+        <DonutChart data={data} withLabels withLabelsLine={false} />
+      </Stack>
     </Stack>
   );
 }
