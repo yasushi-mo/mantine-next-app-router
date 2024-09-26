@@ -39,7 +39,7 @@ export const data = [
   },
 ];
 
-export function ScatterCharts() {
+export default function ScatterCharts() {
   return (
     <ScatterChart
       h={350}
