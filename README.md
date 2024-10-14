@@ -6,12 +6,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -37,4 +31,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Articles
 - [【Next.js】Husky と lint-staged でコミット前に ESLint と Prettier を実行する](https://qiita.com/Yasushi-Mo/items/748d1a89334cf04ae7b1)
+- [【Mantine】Next.js App Router で Mantine を利用する](https://qiita.com/Yasushi-Mo/items/3167fb2392e2e557d24b)
+- [【Mantine】テーマをカスタマイズする](https://qiita.com/Yasushi-Mo/items/91b061d207a4c0e9a8ee)
+- [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
+- [【Recharts】Next.js App Router で Recharts を利用する](https://qiita.com/Yasushi-Mo/items/abccbdbeae4dc9ad50e1)
 
