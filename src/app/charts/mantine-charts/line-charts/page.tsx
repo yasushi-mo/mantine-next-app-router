@@ -16,7 +16,6 @@ export default function LineCharts() {
       data={data}
       dataKey="name"
       series={[{ name: "value", color: "blue" }]}
-      curveType="linear"
     />
   );
 }
