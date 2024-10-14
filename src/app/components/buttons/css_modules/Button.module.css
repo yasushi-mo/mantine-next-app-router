@@ -1,3 +1,11 @@
 .button {
   color: red;
 }
+
+.root {
+  background-color: pink;
+}
+
+.label {
+  color: red;
+}
