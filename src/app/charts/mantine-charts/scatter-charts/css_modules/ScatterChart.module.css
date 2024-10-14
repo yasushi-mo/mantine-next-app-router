@@ -1,3 +1,8 @@
 .axisLabel {
   font-size: xx-large;
 }
+
+.axis {
+  margin-top: 20px;
+  font-size: xx-large;
+}
