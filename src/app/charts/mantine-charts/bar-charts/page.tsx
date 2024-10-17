@@ -1,7 +1,7 @@
 import { BarChart, ChartReferenceLineProps } from "@mantine/charts";
 import { Space, Text, Title } from "@mantine/core";
 
-const data = [
+export const data = [
   { month: "January", Smartphones: 1200, Laptops: 900, Tablets: 200 },
   { month: "February", Smartphones: 1900, Laptops: 1200, Tablets: 400 },
   { month: "March", Smartphones: 400, Laptops: 1000, Tablets: 200 },
