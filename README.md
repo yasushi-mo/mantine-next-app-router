@@ -30,9 +30,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Articles
+
 - [【Next.js】Husky と lint-staged でコミット前に ESLint と Prettier を実行する](https://qiita.com/Yasushi-Mo/items/748d1a89334cf04ae7b1)
 - [【Mantine】Next.js App Router で Mantine を利用する](https://qiita.com/Yasushi-Mo/items/3167fb2392e2e557d24b)
 - [【Mantine】テーマをカスタマイズする](https://qiita.com/Yasushi-Mo/items/91b061d207a4c0e9a8ee)
+- [【MantineCharts】Next.js App Router で MantineCharts を利用する](https://qiita.com/Yasushi-Mo/items/cb09c41b5fb9e79df48f)
+- [【MantineCharts】BarChart で4種類の棒グラフを作成する](https://qiita.com/Yasushi-Mo/items/91fe3a4367af55d759a7)
 - [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
 - [【Recharts】Next.js App Router で Recharts を利用する](https://qiita.com/Yasushi-Mo/items/abccbdbeae4dc9ad50e1)
-
