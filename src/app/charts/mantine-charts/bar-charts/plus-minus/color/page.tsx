@@ -15,6 +15,7 @@ export default function Page() {
       h={400}
       data={data}
       dataKey="month"
+      type="stacked"
       series={[
         { name: "plusProfit", color: "blue.6" },
         { name: "minusProfit", color: "red.6" },
