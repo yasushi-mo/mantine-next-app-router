@@ -39,7 +39,7 @@ const line = d3
 
 // Recharts
 export const DynamicRechartsLineChart = dynamic(
-  () => import("./../recharts/line-charts/simple/SimpleLineChart"),
+  () => import("../recharts/line-charts/simple/SimpleLineChart"),
   {
     ssr: false,
   },
