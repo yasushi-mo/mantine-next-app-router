@@ -46,7 +46,6 @@ export default function Page() {
   const yAxisRef = useRef<SVGGElement>(null);
 
   // Set up x-axis and y-axis with useEffect to handle D3 rendering
-
   useEffect(() => {
     if (xAxisRef.current) {
       const xAxis = d3.axisBottom(xScale);
