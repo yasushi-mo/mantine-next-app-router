@@ -11,13 +11,13 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { data } from "./data";
+import { data } from "../data";
 
 export default function ComposedCharts() {
   return (
-    <ComposedChart width={800} height={450} data={data}>
-      <XAxis dataKey="name" />
-      <YAxis />
+    <ComposedChart width={800} height={450} data={data} layout="vertical">
+      <XAxis type="number" />
+      <YAxis type="category" dataKey="name" />
       <Tooltip />
       <Legend />
       <CartesianGrid stroke="#f5f5f5" />
