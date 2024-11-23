@@ -40,5 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【MantineCharts】BarChart で上から下方向の棒グラフを実装する](https://qiita.com/Yasushi-Mo/items/261d28be1046043de035)
 - [【MantineCharts】チャートのX軸・Y軸のラベルをカスタマイズする](https://qiita.com/Yasushi-Mo/items/8fb08b6fd43f39650e05)
 - [【MantineCharts】BarChart で4種類の棒グラフを作成する](https://qiita.com/Yasushi-Mo/items/91fe3a4367af55d759a7)
-- [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
 - [【Recharts】Next.js App Router で Recharts を利用する](https://qiita.com/Yasushi-Mo/items/abccbdbeae4dc9ad50e1)
+- [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
+- [【D3】バブルチャートを実装する](https://qiita.com/Yasushi-Mo/items/fb2fc970b418ae0a52e8)
