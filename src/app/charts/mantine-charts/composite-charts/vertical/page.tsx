@@ -4,14 +4,14 @@ import { data } from "../data";
 export default function CompositeCharts() {
   return (
     <CompositeChart
-      h={300}
+      h={400}
       data={data}
       dataKey=""
       maxBarWidth={30}
       series={[
-        { name: "Tomatoes", color: "rgba(18, 120, 255, 0.2)", type: "bar" },
-        { name: "Apples", color: "red.8", type: "line" },
-        { name: "Oranges", color: "yellow.8", type: "area" },
+        { name: "Apples", color: "green.4", type: "line" },
+        { name: "Oranges", color: "orange.4", type: "area" },
+        { name: "Tomatoes", color: "yellow.4", type: "bar" },
       ]}
       composedChartProps={{ layout: "vertical" }}
       xAxisProps={{ type: "number" }}
