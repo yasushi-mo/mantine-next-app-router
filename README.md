@@ -44,4 +44,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【Recharts】複数のチャートを組み合わせて表示する](https://qiita.com/Yasushi-Mo/items/cfb16b1f44059a24fc3d)
 - [【Recharts】複数のチャートを組み合わせて横向きに表示する](https://qiita.com/Yasushi-Mo/items/20b41b662a23768cfacd)
 - [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
+- [【D3】散布図 (Scatter Chart) を実装する](https://qiita.com/Yasushi-Mo/items/b02c500cfe10176368b0)
 - [【D3】バブルチャートを実装する](https://qiita.com/Yasushi-Mo/items/fb2fc970b418ae0a52e8)
