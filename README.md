@@ -47,3 +47,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
 - [【D3】散布図 (Scatter Chart) を実装する](https://qiita.com/Yasushi-Mo/items/b02c500cfe10176368b0)
 - [【D3】バブルチャートを実装する](https://qiita.com/Yasushi-Mo/items/fb2fc970b418ae0a52e8)
+- [【D3】scaleBand、scaleLiner、scaleSqrt の使い分け](https://qiita.com/Yasushi-Mo/items/6c1ab0eba6eccc044ec1)
