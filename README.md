@@ -48,3 +48,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【D3】散布図 (Scatter Chart) を実装する](https://qiita.com/Yasushi-Mo/items/b02c500cfe10176368b0)
 - [【D3】バブルチャートを実装する](https://qiita.com/Yasushi-Mo/items/fb2fc970b418ae0a52e8)
 - [【D3】scaleBand、scaleLiner、scaleSqrt の使い分け](https://qiita.com/Yasushi-Mo/items/6c1ab0eba6eccc044ec1)
+- [【D3】棒グラフを実装する](https://qiita.com/Yasushi-Mo/items/d77ed4585890dcc8ffc1)
