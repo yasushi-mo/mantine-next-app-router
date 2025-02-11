@@ -22,7 +22,14 @@ export default function Page() {
       format: "a4",
     });
 
+    pdf.setFontSize(16);
+    pdf.text("Monthly Income Chart", 10, 10); // Title
+
     pdf.addImage(imgSrc, "PNG", 10, 10, 190, 100);
+
+    pdf.setFontSize(12);
+    pdf.text("Generated on: " + new Date().toLocaleDateString(), 10, 130); // Footer
+
     pdf.save("chart.pdf");
   };
 
