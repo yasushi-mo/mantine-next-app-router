@@ -1,6 +1,10 @@
 import "@mantine/core/styles.css";
 import "@mantine/charts/styles.css";
-import { ColorSchemeScript, MantineProvider } from "@mantine/core";
+import {
+  ColorSchemeScript,
+  mantineHtmlProps,
+  MantineProvider,
+} from "@mantine/core";
 import { theme } from "@/libs/mantine";
 
 export default function RootLayout({
@@ -9,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
       </head>
