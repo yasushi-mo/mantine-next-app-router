@@ -31,9 +31,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Articles
 
+### Next.js
 - [【Next.js】Husky と lint-staged でコミット前に ESLint と Prettier を実行する](https://qiita.com/Yasushi-Mo/items/748d1a89334cf04ae7b1)
 - [【Next.js】webpack.cache.PackFileCacheStrategy の警告が出るときの対処法](https://qiita.com/Yasushi-Mo/items/bda68188d5db4b4c709d)
-- [【Next.js】Next.jsとMantineで発生する「hydration mismatch」エラーの解決方法](【Next.js】Next.jsとMantineで発生する「hydration mismatch」エラーの解決方法)
+- [【Next.js】Next.jsとMantineで発生する「hydration mismatch」エラーの解決方法](https://qiita.com/Yasushi-Mo/items/c25e52f7228e7aef593a)
+
+### Mantine
 - [【Mantine】Next.js App Router で Mantine を利用する](https://qiita.com/Yasushi-Mo/items/3167fb2392e2e557d24b)
 - [【Mantine】テーマをカスタマイズする](https://qiita.com/Yasushi-Mo/items/91b061d207a4c0e9a8ee)
 - [【MantineCharts】Next.js App Router で MantineCharts を利用する](https://qiita.com/Yasushi-Mo/items/cb09c41b5fb9e79df48f)
@@ -45,10 +48,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【MantineCharts】横向きの CompositeChart を実装する](https://qiita.com/Yasushi-Mo/items/a41acd34920d91553f98)
 - [【MantineCharts】ツールチップの表示位置をカスタマイズする](https://qiita.com/Yasushi-Mo/items/3efcf223ea1479536c23)
 - [React コンポーネントライブラリの選定で Mantine を選んだ話](https://qiita.com/Yasushi-Mo/items/9bcf9fed16b6b084f291)
+
+### Recharts
 - [【Recharts】Next.js App Router で Recharts を利用する](https://qiita.com/Yasushi-Mo/items/abccbdbeae4dc9ad50e1)
 - [【Recharts】複数のチャートを組み合わせて表示する](https://qiita.com/Yasushi-Mo/items/cfb16b1f44059a24fc3d)
 - [【Recharts】複数のチャートを組み合わせて横向きに表示する](https://qiita.com/Yasushi-Mo/items/20b41b662a23768cfacd)
 - [【D3】Next.js App Router で D3 v7 を利用する](https://qiita.com/Yasushi-Mo/items/d3a831897bd695d442f6)
+
+### D3
 - [【D3】散布図 (Scatter Chart) を実装する](https://qiita.com/Yasushi-Mo/items/b02c500cfe10176368b0)
 - [【D3】バブルチャートを実装する](https://qiita.com/Yasushi-Mo/items/fb2fc970b418ae0a52e8)
 - [【D3】scaleBand、scaleLiner、scaleSqrt の使い分け](https://qiita.com/Yasushi-Mo/items/6c1ab0eba6eccc044ec1)
