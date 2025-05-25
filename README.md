@@ -33,6 +33,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - [【Next.js】Husky と lint-staged でコミット前に ESLint と Prettier を実行する](https://qiita.com/Yasushi-Mo/items/748d1a89334cf04ae7b1)
 - [【Next.js】webpack.cache.PackFileCacheStrategy の警告が出るときの対処法](https://qiita.com/Yasushi-Mo/items/bda68188d5db4b4c709d)
+- [【Next.js】Next.jsとMantineで発生する「hydration mismatch」エラーの解決方法](【Next.js】Next.jsとMantineで発生する「hydration mismatch」エラーの解決方法)
 - [【Mantine】Next.js App Router で Mantine を利用する](https://qiita.com/Yasushi-Mo/items/3167fb2392e2e557d24b)
 - [【Mantine】テーマをカスタマイズする](https://qiita.com/Yasushi-Mo/items/91b061d207a4c0e9a8ee)
 - [【MantineCharts】Next.js App Router で MantineCharts を利用する](https://qiita.com/Yasushi-Mo/items/cb09c41b5fb9e79df48f)
