@@ -48,6 +48,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [【MantineCharts】横向きの CompositeChart を実装する](https://qiita.com/Yasushi-Mo/items/a41acd34920d91553f98)
 - [【MantineCharts】ツールチップの表示位置をカスタマイズする](https://qiita.com/Yasushi-Mo/items/3efcf223ea1479536c23)
 - [React コンポーネントライブラリの選定で Mantine を選んだ話](https://qiita.com/Yasushi-Mo/items/9bcf9fed16b6b084f291)
+- [【MantineCharts】BarChart で特定の値を目立たせる方法](https://qiita.com/Yasushi-Mo/items/63c966bfd5f38f63e8c8)
 
 ### Recharts
 - [【Recharts】Next.js App Router で Recharts を利用する](https://qiita.com/Yasushi-Mo/items/abccbdbeae4dc9ad50e1)
