@@ -8,14 +8,17 @@ export default function Page() {
       <WithExtrasCollapse
         toggleLabel="Toggle panel"
         collapsibleContent={<Text ta="center">Collapsed texts</Text>}
-        extraContents={[
+        leftExtraContent={
           <Title order={2} key={0}>
+            {" "}
             h2 title
-          </Title>,
+          </Title>
+        }
+        rightExtraContent={
           <Title order={2} key={1}>
             h2 title 2nd
-          </Title>,
-        ]}
+          </Title>
+        }
       />
     </Stack>
   );
