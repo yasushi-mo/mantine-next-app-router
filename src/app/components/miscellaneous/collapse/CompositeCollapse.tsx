@@ -1,20 +1,32 @@
 "use client";
 
-import { Button, Collapse, Flex, Stack, Text, Title } from "@mantine/core";
+import { Button, Collapse, Flex, Group, Stack } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
+import { ReactNode } from "react";
 
-export default function CompositeCollapse() {
+type CompositeCollapseProps = {
+  toggleLabel: string;
+  collapsibleContent: ReactNode;
+  extraContents: ReactNode[];
+};
+
+export default function CompositeCollapse({
+  toggleLabel,
+  collapsibleContent,
+  extraContents,
+}: CompositeCollapseProps) {
   const [opened, { toggle }] = useDisclosure(false);
   return (
     <Stack>
       <Flex justify="space-between">
-        <Title order={2}>h2 title</Title>
-        <Button onClick={toggle}>Toggle Content</Button>
+        {extraContents[0]}
+        <Group>
+          {extraContents[1]}
+          <Button onClick={toggle}>{toggleLabel}</Button>
+        </Group>
       </Flex>
 
-      <Collapse in={opened}>
-        <Text ta="center">Collapsed texts</Text>
-      </Collapse>
+      <Collapse in={opened}>{collapsibleContent}</Collapse>
     </Stack>
   );
 }
