@@ -1,11 +1,11 @@
 import { Stack, Text, Title } from "@mantine/core";
-import CompositeCollapse from "./CompositeCollapse";
+import WithExtrasCollapse from "./WithExtrasCollapseCollapse";
 
 export default function Page() {
   return (
     <Stack>
       <Title>Collapse</Title>
-      <CompositeCollapse
+      <WithExtrasCollapse
         toggleLabel="Toggle panel"
         collapsibleContent={<Text ta="center">Collapsed texts</Text>}
         extraContents={[

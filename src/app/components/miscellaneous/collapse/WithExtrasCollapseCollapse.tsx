@@ -4,17 +4,17 @@ import { Button, Collapse, Flex, Group, Stack } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { ReactNode } from "react";
 
-type CompositeCollapseProps = {
+type WithExtrasCollapseCollapseProps = {
   toggleLabel: string;
   collapsibleContent: ReactNode;
   extraContents: ReactNode[];
 };
 
-export default function CompositeCollapse({
+export default function WithExtrasCollapse({
   toggleLabel,
   collapsibleContent,
   extraContents,
-}: CompositeCollapseProps) {
+}: WithExtrasCollapseCollapseProps) {
   const [opened, { toggle }] = useDisclosure(false);
   return (
     <Stack>
