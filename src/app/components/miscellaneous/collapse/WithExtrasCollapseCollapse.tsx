@@ -7,21 +7,23 @@ import { ReactNode } from "react";
 type WithExtrasCollapseCollapseProps = {
   toggleLabel: string;
   collapsibleContent: ReactNode;
-  extraContents: ReactNode[];
+  leftExtraContent?: ReactNode;
+  rightExtraContent?: ReactNode;
 };
 
 export default function WithExtrasCollapse({
   toggleLabel,
   collapsibleContent,
-  extraContents,
+  leftExtraContent,
+  rightExtraContent,
 }: WithExtrasCollapseCollapseProps) {
   const [opened, { toggle }] = useDisclosure(false);
   return (
     <Stack>
       <Flex justify="space-between">
-        {extraContents[0]}
+        {leftExtraContent}
         <Group>
-          {extraContents[1]}
+          {rightExtraContent}
           <Button onClick={toggle}>{toggleLabel}</Button>
         </Group>
       </Flex>
