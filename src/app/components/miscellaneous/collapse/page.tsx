@@ -1,5 +1,6 @@
 import { Stack, Text, Title } from "@mantine/core";
 import WithExtrasCollapse from "./WithExtrasCollapseCollapse";
+import UpperCollapse from "./UpperCollapse";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
           </Title>
         }
       />
+      <UpperCollapse />
     </Stack>
   );
 }
