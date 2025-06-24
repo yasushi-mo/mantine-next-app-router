@@ -13,7 +13,6 @@ export default function Page() {
     const flatData = data.flatMap((d) =>
       d.result.map((r) => ({ ...r, element: d.element })),
     );
-    console.log("flatData:", flatData);
     // Define scales
     const xScale = d3
       .scaleBand()

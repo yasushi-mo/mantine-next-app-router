@@ -48,7 +48,7 @@ export default function Page() {
       .attr("width", xScale.bandwidth())
       .attr("height", (d) => HEIGHT - MARGIN.bottom - yScale(d.income))
       .attr("fill", "steelblue")
-      .on("mouseover", (event, d) => {
+      .on("mouseover", (_, d) => {
         tooltip
           .style("visibility", "visible")
           .html(`<strong>${d.month}</strong><br/>Income: ${d.income}`);
