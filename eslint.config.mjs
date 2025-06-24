@@ -4,6 +4,7 @@ import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
 import pluginReactJSXRuntime from "eslint-plugin-react/configs/jsx-runtime.js";
 import eslintConfigPrettier from "eslint-config-prettier";
+import mantine from "eslint-config-mantine";
 
 export default [
   {
@@ -17,6 +18,7 @@ export default [
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
+  ...mantine,
   pluginReact.configs.flat.recommended,
   pluginReactJSXRuntime,
   // Put it in the configuration array after other configs

@@ -36,7 +36,7 @@ export default function LineChart({
 
   const line = d3
     .line<{ name: string; value: number }>()
-    .x((d, i) => x(i))
+    .x((_, i) => x(i))
     .y((d) => y(d.value));
 
   return (

@@ -25,7 +25,7 @@ export const theme = createTheme({
           color: "black",
         },
       },
-      vars: (theme, props) => {
+      vars: (_, props) => {
         if (props.size === "xxl") {
           return {
             root: {

@@ -78,7 +78,6 @@ export const data = [
 ];
 
 function CustomTooltip({ name }: { name: string }) {
-  console.log("name:", name);
   return (
     <Paper px="md" py="sm" withBorder shadow="md" radius="md">
       <Text>{name}</Text>
@@ -97,7 +96,6 @@ export default function ScatterCharts() {
       tooltipProps={{
         content: ({ payload }) => {
           const groupName = payload && payload[0]?.payload.name;
-          console.log("payload:", payload);
           return <CustomTooltip name={groupName} />;
         },
       }}

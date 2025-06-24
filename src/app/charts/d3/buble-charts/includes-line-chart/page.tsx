@@ -135,5 +135,5 @@ export default function Page() {
     }
   }, [svgRef]);
 
-  return <svg ref={svgRef} width={width} height={height}></svg>;
+  return <svg ref={svgRef} width={width} height={height} />;
 }
